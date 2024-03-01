@@ -16,7 +16,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	if (new_node == NULL)
 	{
 		/*Allocation failed, return NULL */
-		return NULL;
+		return (NULL);
 	}
 
 	/*Innitializing the new node's fields */
@@ -26,5 +26,5 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	new_node->left = NULL;
 
 	/*Return a pointer to the new node */
-	return new_node;
+	return (new_node);
 }
