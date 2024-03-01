@@ -1,4 +1,6 @@
 #include "binary_trees.h"
+#include <stdio.h> /* Include this for printf */
+#include <string.h> /* Include this for memset */
 
 /* Original code from http://stackoverflow.com/a/13755911/5184480 */
 
